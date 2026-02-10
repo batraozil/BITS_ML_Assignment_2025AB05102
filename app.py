@@ -92,7 +92,7 @@ def main():
     model = models[selected_stem]
 
     st.write("Upload a CSV with the **same feature columns** as training data (Refer to the Git data folder for test file - File Name - har_test.csv).")
-    st.markdown("Check out the sample test file here (https://github.com/batraozil/BITS_ML_Assignment_2025AB05102/blob/769be21c51a7fd6857b5509ba50f0315b14a1512/data/har_test.csv).")
+    st.markdown("Check out the sample test file here (https://github.com/batraozil/BITS_ML_Assignment_2025AB05102/blob/769be21c51a7fd6857b5509ba50f0315b14a1512/data/har_test.csv). Download the file and use it for model testing")
 
 
     uploaded = st.file_uploader("Upload CSV", type=["csv"])
