@@ -91,8 +91,8 @@ def main():
     )
     model = models[selected_stem]
 
-    st.write("Upload a CSV with the **same feature columns** as training data.")
-    st.caption("Optional: include a label column named `Activity` to compute confusion matrix/report.")
+    st.write("Upload a CSV with the **same feature columns** as training data (Refer to the Git data folder for test file - File Name - har_test.csv).")
+
 
     uploaded = st.file_uploader("Upload CSV", type=["csv"])
 
